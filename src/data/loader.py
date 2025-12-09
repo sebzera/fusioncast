@@ -34,10 +34,10 @@ class NEXRADLoader:
             
         return downloaded_files
     
-loader = NEXRADLoader()                         # testing the loader with small sample data
-end_time = datetime.now(timezone.utc)
-start_time = end_time - timedelta(hours=1)
-downloaded_files = loader.download_scans(start_time=start_time, end_time=end_time,station='KTLX')
-print(f"Downloaded files: {downloaded_files}")
-for file in downloaded_files:
-    print(file)
+# loader = NEXRADLoader()                         # testing the loader with small sample data
+# end_time = datetime.now(timezone.utc)
+# start_time = end_time - timedelta(hours=1)
+# downloaded_files = loader.download_scans(start_time=start_time, end_time=end_time,station='KTLX')
+# print(f"Downloaded files: {downloaded_files}")
+# for file in downloaded_files:
+#    print(file)
